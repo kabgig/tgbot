@@ -1,0 +1,6 @@
+docker run
+--name tb_bot_postgres_container -e
+POSTGRES_PASSWORD=55555 -e
+POSTGRES_DB=tgbot
+-p 5432:5432
+-d postgres:latest
